@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import profileImg from '../assets/images/profile.jpg';
 
 export default function Hero(){
   return (
@@ -52,7 +53,7 @@ export default function Hero(){
     transition={{ duration: 0.6, delay: 0.2 }}
   >
     <img
-      src="/images/profile.jpg"
+      src={profileImg}
       alt="Zarafshan Hassan"
       className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-tealAccent/40 md:ml-auto"
     />
